@@ -39,7 +39,7 @@ def main():
             if not os.path.exists(keyword):
                 os.makedirs(keyword)
         except OSError:
-            print ('Error: Creating directory. ' +  directory)
+            print ('Error: Creating directory. ' + keyword)
 
         print(f'{keyword} Downloading...')
 
